@@ -10,7 +10,7 @@ export default function Info() {
             <h1>Akpan Caleb</h1>
             <h3>Backend Developer</h3>
             <p className='info-p'>akpancaleb.website</p>
-            <button className='email-btn'> Email <img src={pic5} /> </button>
+            <button className='email-btn'> email <img src={pic5} /> </button>
             <button className='upwork-btn'> Upwork <img src={pic6} /> </button>
         </main>
     )
