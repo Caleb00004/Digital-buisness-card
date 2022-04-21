@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    text-align: center;
+    padding-top: 40px;
+    background: #23252C;;
+}
+
+/* INFO SECTION */
+.img-item {
+    border-radius: 10px;
+    width: 200px;
+    margin: 0;
+}
+
+h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    color:  #F3BF99;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12.8px;
+    line-height: 15px;
+    text-align: center;
+}
+
+.info-p {
+    color: white; 
+    font-size: smaller;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button {
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 15px 32px;
+    text-align: center;
+    margin: 15px;
+    display: inline-flex; /*to fix the small icons in the buttons*/
+}
+
+.email-btn {
+    align-items: center;
+}
+
+.email-btn > img {
+    padding-left: 5px;
+}
+
+.email-btn:hover{
+    background-color: #b82020;
+    color: white;
+}
+
+.upwork-btn {
+    background-color: #5093E2;
+}
+
+
+.upwork-btn > img {
+    padding-left: 5px;
+}
+
+.upwork-btn:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+/* ABOUT SECTION */
+p {
+    color: #DCDCDC;
+    max-width: 500px;
+    margin: auto;
+}
+
+h2 {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 150%;
+    margin-right: 425px;
+
+}
+
+.about-section{
+    display: block;
+    
+}
+
+.about-section > p {
+    margin-top: -20px;
+}
+
+
+/* Interest Section */
+.interest-p {
+    margin-top: -20px;
+    padding-right: 100px;
+}
+
+/* Footer Section */
+.footer {
+    margin-top: 30px;
+    padding-top: 5px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #161619;;
+    color: white;
+    text-align: center;
+}
+
+.footer > img{
+    left: 34.36%;
+    right: 61.09%;
+    top: 89.75%;
+    bottom: 7.37%;
+    margin-right: 5px;
+    margin-left: 10px;
+
+    background: #918E9B;
+}
